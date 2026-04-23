@@ -4,6 +4,7 @@ excerpt: "Hay un negocio increíblemente rentable que pocas personas se atreven 
 date: "2026-03-25"
 tags: ["Negocios", "Emprendimiento", "SaaS", "Herramientas", "Pequeñas Empresas"]
 readTime: "7 min"
+cover: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=85&fit=crop"
 linkedinUrl: "https://www.linkedin.com/pulse/lo-que-las-peque%C3%B1as-empresas-realmente-necesitan-vs-les-saul-gonzalez-4h0ce/"
 ---
 

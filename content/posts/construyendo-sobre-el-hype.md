@@ -4,6 +4,7 @@ excerpt: "Antes de correr con AI, hay que aprender a caminar como negocio. La pr
 date: "2026-03-27"
 tags: ["Inteligencia Artificial", "Estrategia", "Negocios", "Startups", "Emprendimiento"]
 readTime: "7 min"
+cover: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=85&fit=crop"
 linkedinUrl: "https://www.linkedin.com/pulse/estamos-construyendo-sobre-hype-sin-estructura-data-y-saul-gonzalez-bmnje/"
 ---
 

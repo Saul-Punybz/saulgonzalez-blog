@@ -4,6 +4,7 @@ excerpt: "Nadie llega solo. Esta no es una historia de éxito lineal — es una 
 date: "2026-04-23"
 tags: ["Emprendimiento", "Puerto Rico", "Startup", "Parallel18", "Puny.bz"]
 readTime: "10 min"
+cover: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&q=85&fit=crop"
 ---
 
 Hay algo que rara vez se cuenta cuando hablamos de startups, tecnología o crecimiento: nadie llega solo.
