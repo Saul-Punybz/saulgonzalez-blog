@@ -15,13 +15,15 @@ export default function Home() {
             <div className="w-1.5 h-1.5 rounded-full bg-violet-500 animate-pulse" />
             <span className="text-xs font-bold tracking-widest uppercase text-violet-500">Blog</span>
           </div>
-          <h1 className="text-4xl sm:text-6xl font-black text-slate-900 dark:text-white mb-5 leading-[1.05]">
-            Emprendimiento,<br />
+          <h1 className="text-4xl sm:text-6xl font-black text-slate-900 dark:text-white mb-4 leading-[1.05]">
             <span className="text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(135deg, #7030ef, #c026d3)' }}>
-              Tecnología,
+              Puerto Rico-built.
             </span><br />
-            y de PR para el mundo.
+            World-ready.
           </h1>
+          <p className="text-xl font-semibold text-slate-600 dark:text-slate-300 mb-4">
+            Notas de un empresario puertorriqueño.
+          </p>
           <p className="text-lg text-slate-500 dark:text-slate-400 max-w-xl">
             Aprendizajes reales de construir empresas, integrar IA y competir globalmente desde la isla. Sin filtro.
           </p>
