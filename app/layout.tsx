@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 export const metadata: Metadata = {
   metadataBase: new URL('https://blogs.saulgonzalez.pro'),
   title: { default: 'Blog — Saul A. González', template: '%s | Saul A. González' },
-  description: 'Emprendimiento, tecnología nearshore, IA para negocios y el ecosistema startup de Puerto Rico. Por Saul A. González Alonso — COO Puny.bz, Parallel18 Gen 13, Eagle Scout.',
+  description: 'Emprendimiento, Tecnología, y de PR para el mundo. Por Saul A. González Alonso — COO Puny.bz, Parallel18 Gen 13, Eagle Scout desde Arecibo, Puerto Rico.',
   openGraph: {
     siteName: 'Saul A. González — Blog',
     locale: 'es_PR',
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <span className="font-bold text-sm text-slate-900 dark:text-white group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">
                     Saul A. González
                   </span>
-                  <span className="hidden sm:block text-xs text-slate-400 leading-none">Emprendimiento · Tecnología · Puerto Rico</span>
+                  <span className="hidden sm:block text-xs text-slate-400 leading-none">Emprendimiento · Tecnología · De PR para el mundo</span>
                 </div>
               </Link>
               <nav className="flex items-center gap-5">
@@ -72,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     </div>
                   </div>
                   <p className="text-sm text-slate-400 max-w-sm">
-                    Consultor digital, ingeniero eléctrico y emprendedor puertorriqueño. Escribo sobre lo que aprendo construyendo negocios.
+                    Emprendimiento, Tecnología, y de PR para el mundo. Escribo sobre lo que aprendo construyendo negocios desde Arecibo.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 text-sm">

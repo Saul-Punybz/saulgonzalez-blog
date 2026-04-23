@@ -18,12 +18,12 @@ export default function Home() {
           <h1 className="text-4xl sm:text-6xl font-black text-slate-900 dark:text-white mb-5 leading-[1.05]">
             Emprendimiento,<br />
             <span className="text-transparent bg-clip-text" style={{ backgroundImage: 'linear-gradient(135deg, #7030ef, #c026d3)' }}>
-              tecnología
-            </span>{' '}y<br />
-            Puerto Rico.
+              Tecnología,
+            </span><br />
+            y de PR para el mundo.
           </h1>
           <p className="text-lg text-slate-500 dark:text-slate-400 max-w-xl">
-            Aprendizajes reales de construir empresas, integrar IA y vender nearshore desde la isla. Sin filtro.
+            Aprendizajes reales de construir empresas, integrar IA y competir globalmente desde la isla. Sin filtro.
           </p>
         </div>
       </section>
