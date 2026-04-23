@@ -11,10 +11,12 @@ export interface Post {
   date: string
   tags: string[]
   readTime: string
+  cover?: string
   content: string
 }
 
 export function getAllPosts(): Omit<Post, 'content'>[] {
+  if (!fs.existsSync(postsDir)) return []
   const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'))
   return files
     .map(file => {
@@ -28,6 +30,7 @@ export function getAllPosts(): Omit<Post, 'content'>[] {
         date: data.date ?? '',
         tags: data.tags ?? [],
         readTime: data.readTime ?? '5 min',
+        cover: data.cover ?? undefined,
       }
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -45,6 +48,7 @@ export function getPost(slug: string): Post | null {
     date: data.date ?? '',
     tags: data.tags ?? [],
     readTime: data.readTime ?? '5 min',
+    cover: data.cover ?? undefined,
     content,
   }
 }

@@ -2,16 +2,90 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .prose h2 { @apply text-2xl font-bold mt-10 mb-4 text-slate-900 dark:text-white; }
-  .prose h3 { @apply text-xl font-bold mt-8 mb-3 text-slate-900 dark:text-white; }
-  .prose p  { @apply mb-5 leading-relaxed text-slate-700 dark:text-slate-300; }
-  .prose ul { @apply mb-5 pl-6 space-y-2 list-disc text-slate-700 dark:text-slate-300; }
-  .prose ol { @apply mb-5 pl-6 space-y-2 list-decimal text-slate-700 dark:text-slate-300; }
-  .prose a  { @apply text-violet-600 dark:text-violet-400 hover:underline; }
-  .prose strong { @apply font-bold text-slate-900 dark:text-white; }
-  .prose em { @apply italic; }
-  .prose hr { @apply my-10 border-slate-200 dark:border-white/10; }
-  .prose blockquote { @apply border-l-4 border-violet-500 pl-5 italic text-slate-600 dark:text-slate-400 my-6; }
-  .prose code { @apply bg-slate-100 dark:bg-white/10 px-1.5 py-0.5 rounded text-sm font-mono; }
+:root {
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --color-primary: #7030ef;
+  --color-accent:  #c026d3;
 }
+
+*, *::before, *::after {
+  transition: background-color 0.25s ease, border-color 0.2s ease, color 0.15s ease;
+}
+
+html { scroll-behavior: smooth; }
+
+html:not(.dark) body { background-color: #ffffff; color: #1a1a2e; }
+body { -webkit-font-smoothing: antialiased; }
+
+/* ── Hero grid ── */
+.dark .hero-grid {
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(112,48,239,0.22) 0%, transparent 70%),
+    radial-gradient(rgba(112,48,239,0.07) 1px, transparent 1px);
+  background-size: 100% 100%, 28px 28px;
+  background-color: #090820;
+}
+.hero-grid {
+  background-image:
+    radial-gradient(ellipse 90% 60% at 50% -5%, rgba(112,48,239,0.13) 0%, transparent 65%),
+    radial-gradient(rgba(112,48,239,0.07) 1px, transparent 1px);
+  background-size: 100% 100%, 28px 28px;
+  background-color: #ffffff;
+}
+
+/* ── Gradient & Glow buttons ── */
+.btn-gradient {
+  background: linear-gradient(135deg, #7030ef 0%, #c026d3 100%);
+  transition: box-shadow 0.2s, transform 0.15s, filter 0.15s;
+}
+.btn-gradient:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.btn-glow {
+  box-shadow: 0 0 30px rgba(112,48,239,0.38), 0 0 0 1px rgba(112,48,239,0.22);
+}
+.btn-glow:hover {
+  box-shadow: 0 0 50px rgba(192,38,211,0.55), 0 0 0 1px rgba(192,38,211,0.4);
+  transform: translateY(-1px);
+}
+
+/* ── Prose ── */
+.prose { color: inherit; }
+.prose h2 { font-size: 1.5rem; font-weight: 800; margin-top: 2.5rem; margin-bottom: 1rem; }
+.prose h3 { font-size: 1.25rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem; }
+.prose p  { margin-bottom: 1.4rem; line-height: 1.8; }
+.prose ul { margin-bottom: 1.4rem; padding-left: 1.5rem; list-style: disc; }
+.prose ol { margin-bottom: 1.4rem; padding-left: 1.5rem; list-style: decimal; }
+.prose li { margin-bottom: 0.4rem; line-height: 1.7; }
+.prose a  { color: #7c3aed; text-decoration: underline; text-underline-offset: 3px; }
+.dark .prose a { color: #a78bfa; }
+.prose strong { font-weight: 700; }
+.prose em { font-style: italic; }
+.prose hr { margin: 2.5rem 0; border-color: rgba(255,255,255,0.08); }
+html:not(.dark) .prose hr { border-color: #e2e8f0; }
+.prose blockquote {
+  border-left: 3px solid #7030ef;
+  padding-left: 1.2rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+  opacity: 0.8;
+}
+.prose code {
+  background: rgba(112,48,239,0.12);
+  color: #a78bfa;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-family: 'Fira Code', monospace;
+}
+.prose pre {
+  background: #0f0f24;
+  padding: 1.5rem;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border: 1px solid rgba(255,255,255,0.07);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(112,48,239,0.3); border-radius: 3px; }
