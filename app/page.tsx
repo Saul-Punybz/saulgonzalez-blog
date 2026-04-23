@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllPosts } from '@/lib/posts'
+import YoutubeSection from '@/components/YoutubeSection'
 
 export default function Home() {
   const posts = getAllPosts()
@@ -135,6 +136,9 @@ export default function Home() {
             </div>
           </>
         )}
+
+        {/* ── YouTube ── */}
+        <YoutubeSection />
 
         {/* ── CTA ── */}
         <div className="mt-20 rounded-3xl overflow-hidden relative" style={{ background: 'linear-gradient(135deg, #1a0a3e 0%, #0f0f24 50%, #1a0525 100%)' }}>
