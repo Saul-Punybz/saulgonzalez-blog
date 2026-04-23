@@ -12,6 +12,7 @@ export interface Post {
   tags: string[]
   readTime: string
   cover?: string
+  linkedinUrl?: string
   content: string
 }
 
@@ -31,6 +32,7 @@ export function getAllPosts(): Omit<Post, 'content'>[] {
         tags: data.tags ?? [],
         readTime: data.readTime ?? '5 min',
         cover: data.cover ?? undefined,
+        linkedinUrl: data.linkedinUrl ?? undefined,
       }
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -49,6 +51,7 @@ export function getPost(slug: string): Post | null {
     tags: data.tags ?? [],
     readTime: data.readTime ?? '5 min',
     cover: data.cover ?? undefined,
+    linkedinUrl: data.linkedinUrl ?? undefined,
     content,
   }
 }
