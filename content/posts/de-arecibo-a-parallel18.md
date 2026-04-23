@@ -1,112 +1,164 @@
 ---
-title: "De Arecibo a Parallel18: La Historia de un Emprendedor Puertorriqueño Que No Siguió el Camino Esperado"
-excerpt: "Ingeniería eléctrica, energía renovable, Bad Bunny y una plataforma SaaS en 29 países. Esta es mi trayectoria real."
+title: "No llegué solo: la historia detrás de lo que estoy construyendo"
+excerpt: "Nadie llega solo. Esta no es una historia de éxito lineal — es una historia de construcción: de carácter, de fracasos que enseñan, y de las personas que estuvieron ahí cuando aún no había nada claro."
 date: "2026-04-23"
-tags: ["Entrepreneurship", "Puerto Rico", "Startup", "Nearshore", "Parallel18"]
-readTime: "8 min"
+tags: ["Emprendimiento", "Puerto Rico", "Startup", "Parallel18", "Puny.bz"]
+readTime: "10 min"
 ---
 
-Hay una versión de mi historia que se ve bien en LinkedIn. Títulos, empresas, logros. Línea recta del punto A al punto B.
+Hay algo que rara vez se cuenta cuando hablamos de startups, tecnología o crecimiento: nadie llega solo.
 
-Esta no es esa versión.
-
-Esta es la versión donde perdí un proyecto que me tomó años construir. La versión donde fundé una empresa de medios sin saber nada de medios. La versión donde aprendí que la disciplina que te forja a los 16 años te salva a los 36.
-
-Me llamo Saul A. González Alonso. Nací en Arecibo, Puerto Rico. Y si algo he aprendido es que el camino nunca es el que planificaste — pero siempre lleva a algún lugar si no te detienes.
+Esta no es una historia de éxito lineal. Es una historia de construcción — de carácter, de decisiones difíciles, de fracasos que enseñan, y sobre todo, de las personas que estuvieron ahí cuando aún no había nada claro.
 
 ---
 
-## Arecibo, Electrónica y Todas las Medallas
+## Arecibo: donde todo comienza
 
-Crecí en Arecibo en una época donde "tecnología" significaba desmontar cosas para ver cómo funcionaban. Esa curiosidad me llevó a la Escuela Vocacional Antonio Lucchetti, donde me especialicé en Electrónica.
+Nací en Arecibo, Puerto Rico. Desde pequeño tuve una inclinación natural hacia la tecnología, pero más importante aún, hacia construir.
 
-Fui el estudiante más sobresaliente de mi clase. Obtuve todas las medallas académicas. Ganamos el primer lugar en el programa STAR de ingeniería con mi equipo. Fui presidente de Future Farmers of America, campeón en leyes parlamentarias, representante estudiantil, miembro de SkillsUSA.
+Fui el estudiante más sobresaliente en todas las etapas de mi educación — desde escuela elemental hasta superior. No lo digo como un logro aislado, sino como resultado de un entorno que me exigía pensar, actuar con disciplina y ejecutar.
 
-No lo menciono para impresionar. Lo menciono porque esa acumulación de disciplina — hacer *todo* con seriedad, hasta lo que no te gusta — fue la base de todo lo que vino después.
+Crecí rodeado de mentores.
 
-Desde los 6 años estuve en el Movimiento Escutas (Boy Scouts). A los 18 alcancé el rango de Eagle Scout. Si no conoces el programa, el Eagle Scout es el nivel más alto. Lo alcanza menos del 4% de los scouts. No es un regalo. Es años de proyectos, liderazgo, servicio comunitario y disciplina consistente.
+Mi abuelo, un empresario que aprendió a leer y escribir por sí solo, me enseñó que el conocimiento no depende de un sistema, sino de la voluntad.
 
-Esa mentalidad — *termina lo que empiezas, hazlo bien o no lo hagas* — todavía gobierna cómo trabajo.
+Mi Scout Master, el coronel retirado Gilberto Mirabal, me enseñó disciplina, liderazgo y carácter bajo presión.
 
----
+Mis padres, Maribel Alonso y Reinaldo González, me dieron estabilidad, estructura y enfoque desde una base de clase media.
 
-## UPRM: Ingeniería, IEEE y Lógica Difusa
-
-Entré a la Universidad de Puerto Rico en Mayagüez (UPRM) a estudiar Ingeniería Eléctrica. El RUM es la escuela de ingeniería más rigurosa del Caribe. No entras ahí a pasarla bien.
-
-Fui presidente del capítulo estudiantil de IEEE durante 2009–2010. Participé en el Senado Académico. Formé parte de Radio Colegial, que originalmente era Radio IEEE.
-
-Pero lo que más me marcó fue la investigación. Trabajé en proyectos de casas inteligentes, superconductores, el efecto Josephson y aplicaciones de lógica difusa (*fuzzy logic*). Si no sabes qué es la lógica difusa, es básicamente enseñarle a las máquinas a razonar en términos de "más o menos" en vez de solo "sí o no." Fue mi primer encuentro real con la idea de que los sistemas pueden *pensar* de manera no binaria.
-
-Eso, años después, se convertiría en mi obsesión con la Inteligencia Artificial.
+Desde los 6 años fui parte del Movimiento Escucha (Boy Scouts), donde eventualmente alcancé el rango de Eagle Scout. Esa etapa no solo fue formación — fue sistema operativo.
 
 ---
 
-## 2011: El Proyecto Que Gané y Perdí
+## Ingeniería, liderazgo y curiosidad
 
-En el 2011 participé en la competencia Enterprize Business Plan. Mi propuesta: producción de etanol a partir de caña de azúcar en Puerto Rico.
+Fui admitido en la Universidad de Puerto Rico, Recinto Universitario de Mayagüez (UPRM), donde estudié Ingeniería Eléctrica.
 
-Ganamos.
+Allí no solo estudié — construí.
 
-Fundé NGen Energy LLC. Inicié conversaciones con inversionistas. Y junto a la Autoridad de Tierras de Puerto Rico, logré consolidar más de 1,500 cuerdas contiguas de terreno.
+Fui presidente del capítulo estudiantil de IEEE (2009–2010), participé en el Senado Académico, en Radio Colegial, y trabajé en investigación en áreas como casas inteligentes, superconductores (Josephson Effect) y lógica difusa.
 
-Teníamos el terreno. Teníamos el plan. Teníamos aliados.
+Siempre me interesó una pregunta:
 
-Lo que no teníamos control era sobre la burocracia institucional y los factores externos que eventualmente pararon el proyecto.
-
-No lo concretamos.
-
-Esa experiencia me enseñó algo que ningún MBA te enseña: la diferencia entre una buena idea y un negocio exitoso no es la idea. Es la ejecución, los aliados correctos, y la suerte de estar en el momento correcto. A veces tienes todo menos ese último elemento.
-
-Lo que *está* en tu control es no dejar que eso te defina.
+> ¿Cómo se construyen sistemas que realmente funcionan en el mundo real?
 
 ---
 
-## ALQMY: Medios Digitales, Comisión Electoral y Bad Bunny
+## El primer gran intento: NGen Energy
 
-En 2018, fundé ALQMY Corp — plataforma de medios digitales, radio online y podcasting.
+En el 2011, gané la competencia Enterprize Business Plan con una idea para producir etanol a partir de caña de azúcar.
 
-Terminamos trabajando con la Comisión Estatal de Elecciones de Puerto Rico. Infraestructura digital para comunicación oficial en procesos electorales. Si eso no te enseña a ejecutar bajo presión, nada lo hace.
+Eso se convirtió en NGen Energy.
 
-Y terminamos trabajando con el equipo de Bad Bunny.
+Viajé buscando inversión, consolidamos más de 1,500 cuerdas de terreno con la Autoridad de Tierras de Puerto Rico, y comenzamos a estructurar lo que podía ser un proyecto energético de gran escala en la isla.
 
-Cuando digo eso, la gente sonríe como si fuera un logro de fanático. No. Es un logro de negocio. El equipo de un artista de esa escala tiene estándares de ejecución brutalmente altos. No hay lugar para mediocridad. Entregas o sales.
+Y falló.
 
-Con ALQMY participamos en los programas Pre18 y Parallel18 — el ecosistema de aceleración de startups de Puerto Rico. Fuimos uno de los equipos más destacados de nuestra generación.
+No por falta de visión, sino por burocracia, factores externos y realidades que no controlábamos.
 
----
-
-## 2024: El Pivote y Puny.bz
-
-En 2024 transferí la propiedad intelectual de ALQMY a Puny.bz Inc.
-
-No fue una derrota. Fue una evolución.
-
-Puny.bz es una plataforma SaaS que elimina las barreras de entrada al emprendimiento digital. Permite a un negocio de una persona tener la presencia digital que antes requería un equipo de diez.
-
-Con Puny.bz entramos a Pre18 Generación 6 y Parallel18 Generación 13. En ambos fuimos parte de los equipos más galardonados en 2025. También participamos en Scale Up y actualmente somos parte del programa Xpand de Parallel18.
-
-Levantamos capital con ATO Ventures en Puerto Rico — siendo una de las pocas startups del ecosistema local en alcanzar ese hito.
-
-**Los números hoy:** Más de 1,400 negocios activos en 29 países. Más de 15 clientes corporativos. Crecimiento sostenido.
+Pero ese fracaso me dio algo mucho más valioso: **criterio empresarial real.**
 
 ---
 
-## Lo Que Aprendí Del Camino
+## Consultoría y evolución
 
-**1. La disciplina que construiste antes de los 20 es tu activo más grande.**
-
-**2. Los proyectos que "fallan" son los que más te enseñan.**
-
-**3. La tecnología es el medio, no el fin.**
-
-**4. Puerto Rico es una ventaja competitiva, no un obstáculo.**
-Somos territorio de Estados Unidos. Operamos en Eastern Time. Aplicamos ley federal. Hablamos inglés y español. Eso es exactamente lo que el mercado norteamericano necesita en un socio tecnológico.
+Entre 2016 y 2017 trabajé en consultoría estratégica y tecnológica. Fue una etapa de aprendizaje profundo sobre cómo operan los negocios por dentro. No desde teoría — desde ejecución.
 
 ---
 
-Si estás construyendo algo y quieres hablar, aquí estoy: **[saulgonzalez.pro](https://saulgonzalez.pro)**
+## ALQMY: de productos a digitalización
+
+En 2018 fundé ALQMY Corp.
+
+Al principio desarrollábamos productos digitales. Pero evolucionamos. Terminamos creando experiencias digitales completas para empresas: aplicaciones, sistemas de generación de leads, plataformas completas, digitalización de procesos.
+
+Trabajamos con clientes como:
+
+- Comisión Estatal de Elecciones de Puerto Rico
+- Bad Bunny
+- Múltiples agencias en Puerto Rico
+- Proyectos internacionales
+
+Ahí entendí algo clave: **el problema no era la tecnología, era el acceso a ella.**
 
 ---
 
-*Saul A. González Alonso es COO y cofundador de Puny.bz. Eagle Scout, ingeniero eléctrico de UPRM, Parallel18 Gen 13 alumni, emprendedor de toda la vida desde Arecibo, Puerto Rico.*
+## Aceleradoras, mentores y crecimiento real
+
+Durante ese proceso participé en múltiples programas: Pre18, Parallel18, Scale Up, Xpand y Project Makers Accelerate. Fuimos de los equipos más galardonados en nuestras cohortes.
+
+Pero más importante que los programas fueron las personas.
+
+Siempre me he rodeado de mentores de alto nivel:
+
+- **Wally González**
+- **José "Vitín" Oliver**
+- **Luis Armando Torres** — Engine-4
+- **Sebastián Salinas** — Y Combinator Startup School PR
+- **Jennifer Hopp** — ATO Ventures
+- **DJ Lampitt** — Ideation Collab
+
+Ellos no solo aportaron conocimiento. Aportaron perspectiva.
+
+---
+
+## Hackathons, comunidad y ecosistema
+
+Entre 2018 y 2023 participé en múltiples hackatones en Puerto Rico, incluyendo **Hack The Island**, colaborando con organizaciones como IBM, Microsoft y T-Mobile.
+
+También participé como conferenciante en el **Primer Simposio de Inteligencia Artificial de la UPR**, enfocado en negocios, y fui parte de iniciativas tipo TED Talks en Puerto Rico.
+
+---
+
+## De ALQMY a Puny.bz
+
+ALQMY evolucionó hacia algo más grande: la digitalización de negocios. Esa tecnología fue eventualmente transferida a Puny.bz, y empezamos de nuevo — con más criterio, más red, y más claridad.
+
+---
+
+## Puny.bz: eliminar las barreras
+
+Hoy soy COO de Puny.bz. Nuestra misión es simple: **eliminar las barreras para emprender.**
+
+Hasta ahora:
+
+- +1,400 negocios impactados
+- 29 países
+- +15 clientes corporativos
+- Crecimiento continuo
+
+Hemos participado en Pre18 Gen 6 y Parallel18 Gen 13 (equipos más galardonados 2025). Levantamos capital con ATO Ventures — siendo una de las pocas startups en Puerto Rico en lograrlo.
+
+También:
+
+- Somos parte del **NVIDIA Inception Program**
+- Estamos certificados en el **Claude Partner Network** (entre los primeros en Puerto Rico)
+- Reconocidos desde 2023 como una de las startups más innovadoras de Puerto Rico
+
+---
+
+## Mentoría y construcción hacia adelante
+
+He sido mentor en programas como:
+
+- **I-Corps** (Grupo Guayacán)
+- **Fase 1 de Parallel18**
+- **Project Makers**
+
+Porque construir ecosistema es tan importante como construir empresa.
+
+---
+
+## Esto no termina aquí
+
+Si algo he aprendido es esto:
+
+No se trata de tener una buena idea. Se trata de construir sistemas que funcionen. De rodearte bien. De ejecutar cuando otros dudan.
+
+**Y de nunca olvidar quién estuvo ahí desde el principio.**
+
+---
+
+*Saul A. González Alonso es COO de Puny.bz, ingeniero eléctrico de UPRM, Eagle Scout, Parallel18 Gen 13 alumni, y empresario desde Arecibo, Puerto Rico.*
+
+*¿Estás construyendo algo? → [saulgonzalez.pro](https://saulgonzalez.pro)*
