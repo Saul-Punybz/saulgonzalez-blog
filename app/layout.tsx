@@ -79,9 +79,24 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <Link href="https://saulgonzalez.pro" className="text-slate-500 dark:text-slate-400 hover:text-violet-600 dark:hover:text-violet-400 transition-colors">saulgonzalez.pro →</Link>
                   <a href="https://puny.bz" target="_blank" rel="noopener noreferrer" className="text-slate-500 dark:text-slate-400 hover:text-violet-600 dark:hover:text-violet-400 transition-colors">puny.bz →</a>
                   <a href="https://twitter.com/buscasaul" target="_blank" rel="noopener noreferrer" className="text-slate-500 dark:text-slate-400 hover:text-violet-600 dark:hover:text-violet-400 transition-colors">@buscasaul →</a>
+                  <a href="https://puny.bz/saga" target="_blank" rel="noopener noreferrer" className="font-semibold text-violet-600 dark:text-violet-400 hover:text-violet-700 dark:hover:text-violet-300 transition-colors">Bukea conmigo →</a>
                 </div>
               </div>
-              <div className="mt-8 pt-6 border-t border-slate-200 dark:border-white/[0.06] text-xs text-slate-400">
+              {/* Puny.bz booking card */}
+              <div className="mt-8 pt-6 border-t border-slate-200 dark:border-white/[0.06]">
+                <a href="https://puny.bz/saga" target="_blank" rel="noopener noreferrer"
+                  className="flex items-center justify-between gap-4 p-4 rounded-xl border border-slate-200 dark:border-white/[0.08] hover:border-violet-400/40 dark:hover:border-violet-500/30 transition-all group bg-white dark:bg-white/[0.02]">
+                  <div className="flex items-center gap-3">
+                    <img src="/puny-logo.svg" alt="Puny.bz" className="h-7 w-auto flex-shrink-0" />
+                    <div>
+                      <p className="text-sm font-bold text-slate-900 dark:text-white group-hover:text-violet-600 dark:group-hover:text-violet-400 transition-colors">Reserva una sesión conmigo</p>
+                      <p className="text-xs text-slate-400">Coffee chat $6 · 1h $150 · 3h $200 — puny.bz/saga</p>
+                    </div>
+                  </div>
+                  <span className="text-xs font-bold text-violet-600 dark:text-violet-400 whitespace-nowrap">Bukea →</span>
+                </a>
+              </div>
+              <div className="mt-4 text-xs text-slate-400">
                 © {new Date().getFullYear()} Saul A. González Alonso — Todos los derechos reservados
               </div>
             </div>

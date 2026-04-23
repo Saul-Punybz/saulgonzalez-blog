@@ -184,10 +184,17 @@ export default function PostPage({ params }: { params: { slug: string } }) {
           <div className="relative px-8 py-8">
             <p className="text-white font-black text-xl mb-2">¿Estás construyendo algo?</p>
             <p className="text-slate-300 text-sm mb-5">WebApps, Apps Móviles, integración de IA. Consulta gratis de 30 minutos, sin compromiso.</p>
-            <a href="https://saulgonzalez.pro/#quiz"
-              className="inline-block btn-gradient btn-glow text-white font-bold px-7 py-3 rounded-xl text-sm">
-              Agendar consulta gratis →
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <a href="https://saulgonzalez.pro/#quiz"
+                className="inline-block btn-gradient btn-glow text-white font-bold px-7 py-3 rounded-xl text-sm">
+                Consulta gratis →
+              </a>
+              <a href="https://puny.bz/saga" target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-white/20 text-white/80 hover:text-white hover:border-white/40 font-semibold px-5 py-3 rounded-xl text-sm transition-all">
+                <img src="/puny-logo.svg" alt="Puny.bz" className="h-4 w-auto" />
+                Bukea conmigo
+              </a>
+            </div>
           </div>
         </div>
 
