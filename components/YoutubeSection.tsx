@@ -33,10 +33,10 @@ export default function YoutubeSection() {
             <p className="text-xs font-bold tracking-widest uppercase text-red-500">YouTube</p>
           </div>
           <h2 className="text-2xl font-black text-slate-900 dark:text-white">
-            Videos de Puny.bz
+            Saul González & Puny.bz en pantalla
           </h2>
           <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">
-            Emprendimiento, tecnología y negocios desde Puerto Rico
+            Emprendimiento, tecnología e IA — desde Puerto Rico para el mundo
           </p>
         </div>
         <a href={CHANNEL_URL} target="_blank" rel="noopener noreferrer"
