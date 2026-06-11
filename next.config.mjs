@@ -23,6 +23,15 @@ const securityHeaders = [
 ]
 
 const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        destination: 'https://saulgonzalez.pro/blog/:path*',
+        permanent: true,
+      },
+    ]
+  },
   async headers() {
     return [{ source: '/(.*)', headers: securityHeaders }]
   },
