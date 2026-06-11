@@ -36,6 +36,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://blogs.saulgonzalez.pro/${post.slug}`,
+      types: { 'application/rss+xml': 'https://blogs.saulgonzalez.pro/feed.xml' },
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,

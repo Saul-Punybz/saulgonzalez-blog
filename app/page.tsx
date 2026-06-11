@@ -1,14 +1,45 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllPosts } from '@/lib/posts'
 import YoutubeSection from '@/components/YoutubeSection'
 
+export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://blogs.saulgonzalez.pro',
+    types: { 'application/rss+xml': 'https://blogs.saulgonzalez.pro/feed.xml' },
+  },
+}
+
 export default function Home() {
   const posts = getAllPosts()
   const [featured, ...rest] = posts
 
+  const blogSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    '@id': 'https://blogs.saulgonzalez.pro/#blog',
+    name: 'Blog — Saul A. González',
+    url: 'https://blogs.saulgonzalez.pro',
+    description: 'Notas de un empresario puertorriqueño. Aprendizajes reales de construir empresas, integrar IA y competir globalmente desde Puerto Rico.',
+    inLanguage: 'es-PR',
+    author: {
+      '@type': 'Person',
+      name: 'Saul A. González Alonso',
+      url: 'https://saulgonzalez.pro',
+    },
+    blogPost: posts.map(p => ({
+      '@type': 'BlogPosting',
+      headline: p.title,
+      url: `https://blogs.saulgonzalez.pro/${p.slug}`,
+      datePublished: p.date,
+      description: p.excerpt,
+    })),
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       {/* ── Hero ── */}
       <section className="hero-grid pt-16 pb-20 px-6">
         <div className="max-w-6xl mx-auto">

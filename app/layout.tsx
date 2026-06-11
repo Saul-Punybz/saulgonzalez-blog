@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://blogs.saulgonzalez.pro'),
   title: { default: 'Blog — Saul A. González', template: '%s | Saul A. González' },
   description: 'Puerto Rico-built. World-ready. Notas de un empresario puertorriqueño. Por Saul A. González Alonso — COO Puny.bz, Parallel18 Gen 13, Eagle Scout desde Arecibo, Puerto Rico.',
+  alternates: {
+    types: { 'application/rss+xml': 'https://blogs.saulgonzalez.pro/feed.xml' },
+  },
   openGraph: {
     siteName: 'Saul A. González — Blog',
     locale: 'es_PR',
@@ -103,12 +106,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </footer>
         </Providers>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-K01SSTPWMF" strategy="afterInteractive" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-97K7WKN9VT" strategy="afterInteractive" />
         <Script id="ga4" strategy="afterInteractive">{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-K01SSTPWMF');
+          gtag('config', 'G-97K7WKN9VT');
         `}</Script>
         <Script id="clarity" strategy="afterInteractive">{`
           (function(c,l,a,r,i,t,y){
